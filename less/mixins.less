@@ -1,1 +1,23 @@
 // Mixins in here
+.btn-mixin(@bg-color; @color) {
+    background: @bg-color;
+    color: @color;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+.content-mixin(){
+    @media @mobile {
+    flex-direction: column;
+    }
+}
+.fullsize(){
+    @media @mobile {
+        width: 100%;
+    }
+}
+.animation (@arguments) {
+    animation: @arguments;
+
+}
