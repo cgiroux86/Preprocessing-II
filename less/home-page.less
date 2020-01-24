@@ -82,10 +82,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      .btn-mixin( skyblue, white );
-      @media @mobile {
-        margin: 0 auto;
+      .btn-mixin( @button-bg, white );
+           @media @mobile {
+        margin: 0 auto;          
+        }
       }
     }
-  }
-}// home
+  }// home

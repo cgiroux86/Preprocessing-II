@@ -208,12 +208,12 @@ img {
   .navigation .a-container {
     width: 100%;
   }
-  .navigation .a-container a {
-    text-decoration: none;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-    color: black;
-  }
+}
+.navigation .a-container a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  color: black;
 }
 .footer {
   width: 100%;
@@ -319,7 +319,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: skyblue;
+  background: #17A2B8;
   color: white;
   width: 90%;
   height: 50px;
